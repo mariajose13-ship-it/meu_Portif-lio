@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Maria José</title>
+    <style>
+        /* Configurações Globais */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at 50% 50%, #0d1b2a 0%, #010811 100%);
+            color: #e0e1dd;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Cabeçalho Magnético */
+        .cabecalho {
+            max-width: 800px;
+            margin: 40px auto 20px auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .cabecalho h1 {
+            font-size: 2.5rem;
+            margin: 0 0 10px 0;
+            background: linear-gradient(45deg, #3a86ff, #00b4d8, #0077b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .cabecalho p {
+            font-size: 1.1rem;
+            color: #90e0ef;
+            margin: 0;
+        }
+
+        /* Seções estilo Glassmorphism (Efeito Vidro Azul) */
+        .secao {
+            max-width: 800px;
+            padding: 30px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 16px; 
+            border: 1px solid rgba(0, 180, 216, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Efeito de hover ao passar o mouse */
+        .secao:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 180, 216, 0.5);
+            box-shadow: 0 8px 32px 0 rgba(0, 180, 216, 0.2);
+        }
+
+        .secao h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            color: #00b4d8;
+            border-bottom: 2px solid rgba(0, 180, 216, 0.3);
+            padding-bottom: 8px;
+            display: inline-block;
+        }
+
+        .secao p {
+            line-height: 1.6;
+            color: #e0e1dd;
+        }
+
+        /* Estilização da lista de Projetos */
+        .projeto-item {
+            background: rgba(0, 119, 182, 0.1);
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #3a86ff;
+            border-radius: 4px;
+        }
+
+        /* Links e Contatos */
+        a {
+            color: #00b4d8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #3a86ff;
+            text-decoration: underline;
+        }
+
+        /* Rodapé Minimalista */
+        .rodape {
+            background: rgba(1, 8, 17, 0.9);
+            color: #a9bcd0;
+            text-align: center;
+            padding: 25px;
+            margin-top: auto; 
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(0, 180, 216, 0.1);
+        }
+    </style></head><body>
+
+    <div class="cabecalho">
+        <h1>Bem-vindo ao Meu Portfólio, Maria José</h1>
+        <p>Estudante de Desenvolvimento de Sistemas &amp; Entusiasta de Tecnologia</p>
+    </div>
+
+    <div class="secao">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Tenho 17 anos e sou estudante do Ensino Médio no CETI:ARF, onde também faço o Curso Técnico em Desenvolvimento de Sistemas.</p>
+        <p>Sou uma desenvolvedora apaixonada por tecnologia e inovação. Através do meu curso técnico, venho adquirindo experiência em diversas linguagens de programação e estou sempre buscando aprender mais para criar soluções inteligentes, eficientes e visuais.</p>
+    </div>
+
+    <div class="secao">
+        <h2>Projetos</h2>
+        <p>Aqui estão alguns dos projetos de destaque que venho desenvolvendo durante minha jornada prática:</p>
+        
+        <div class="projeto-item">
+            <p><strong>Projeto A:</strong> Uma aplicação web para gerenciamento de tarefas.</p>
+        </div>
+        <div class="projeto-item">
+            <p><strong>Projeto B:</strong> Um aplicativo móvel para controle de finanças pessoais.</p>
+        </div>
+        <div class="projeto-item">
+            <p><strong>Projeto C:</strong> Um sistema de recomendação de filmes usando machine learning.</p>
+        </div>
+    </div>
+
+    <div class="secao">
+        <h2>Contato</h2>
+        <p>Gostou do meu perfil ou quer trocar uma ideia sobre códigos? Sinta-se à vontade para me mandar uma mensagem:</p>
+        <p>📧 Email: <a href="mailto:maria.jose.13@aluno.edu.pi.gov.br">maria.jose.13@aluno.edu.pi.gov.br</a></p>
+        <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/maria-jose" target="_blank">linkedin.com/in/maria-jose</a></p>
+    </div> 
+    
+    <div class="rodape">
+        <p>© 2026 Maria José | Desenvolvedora de Sistemas | CETI:ARF</p>
+    </div> 
+</body>
+</html>
